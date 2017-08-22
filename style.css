@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-cats {
+    width: 250px;
+    height: auto;
+    background: #ccc;
+    float: left;
+}
+
+.list-cats p {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.list-cats p:hover {
+    background: red;
+}
+
+.display-cat {
+    background: #eee;
+    width: 800px;
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+}
+
+.display-cat .name {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Clicker</title>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="cat.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="list-cats"></div>
+    <div class="display-cat">
+        <div class="cat">
+            <p class="name"></p>
+            <img src="">
+            <p><span class="counter"></span> Clicks</p>
+            <button id="admin-button">Admin</button>
+        </div>
+        <div id="admin-area" style="display: none;">
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="src">URL IMAGEM</label>
+                <input type="text" name="src" id="src">
+                <label for="counter">counter</label>
+                <input type="text" name="counter" id="counter">
+                <input type="submit" value="Salvar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
